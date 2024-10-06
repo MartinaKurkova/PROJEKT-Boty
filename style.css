@@ -80,6 +80,7 @@ h2 {
     font-size: 14px;
     border-top: solid 1px #06d7c1;
     padding-top: 30px;
+    margin: 0;
 }
 
 .subtitle {
@@ -93,13 +94,14 @@ li {
     list-style-type: none;
     display: inline-block;
     width: 15%;
-    padding: 0;
+    height:41px;
+    padding: 5px;
     text-align: center;
 }
 
 ul {
     padding: 0;
-    margin-bottom: 75px;
+    margin-bottom: 65px;
 }
 
 .basket {
