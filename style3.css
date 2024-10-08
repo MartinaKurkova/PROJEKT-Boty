@@ -1,0 +1,50 @@
+.sizes {
+    display: flex;
+    list-style-type: none;
+    padding: 5px;
+    text-align: center;
+}
+
+.size {
+    list-style-type: none;
+    width: 15%;
+    height:41px;
+    padding: 5px;
+    text-align: center;
+}
+
+.tricetpet {
+    flex-basis: auto;
+    flex-shrink: 0;
+}
+
+.tricetsest {
+    flex-basis: auto;
+    flex-shrink: 0;
+}
+
+.tricetsedm {
+    flex-basis: auto;
+    flex-shrink: 0;
+}
+
+.tricetosm {
+    flex-basis: auto;
+    flex-shrink: 0;
+    border-radius: 50% 50%;
+    border:#f15f42 solid 1px;
+    color: #f15f42;
+    width: 30px;
+    height: 30px;
+    font-weight: 500;
+}
+
+.tricetdevet {
+    flex-basis: auto;
+    flex-shrink: 0;
+}
+
+.ctyricet {
+    flex-basis: auto;
+    flex-shrink: 0;
+}

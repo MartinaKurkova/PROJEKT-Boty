@@ -90,20 +90,6 @@ h2 {
     padding-top: 10px;
 }
 
-li {
-    list-style-type: none;
-    display: inline-block;
-    width: 15%;
-    height:41px;
-    padding: 5px;
-    text-align: center;
-}
-
-ul {
-    padding: 0;
-    margin-bottom: 65px;
-}
-
 .basket {
     background-color: #f15f42;
     text-decoration: none;
@@ -117,19 +103,6 @@ ul {
     margin: 0;
  }
 
- .tricetosm {
-    border-radius: 50% 50%;
-    border:#f15f42 solid 1px;
-    color: #f15f42;
-    width: 30px;
-    height: 30px;
-    font-weight: 500;
- }
-
- .tricetsest
- .tricetsedm
- .tricetdevet
- .ctyricet
 
  .heslo {
     font-size: 16px;
@@ -156,3 +129,32 @@ ul {
     font-size: 12px;
     font-weight: 400;
  }
+
+ .sizes {
+    display: flex;
+    list-style-type: none;
+    padding: 5px;
+    text-align: center;
+}
+
+.size {
+    list-style-type: none;
+    width: 15%;
+    height:41px;
+    padding: 5px;
+    text-align: center;
+    flex-basis: auto;
+    flex-shrink: 0;
+    flex-grow: 1;
+    margin-bottom: 40px;
+}
+
+.tricetosm {
+    border-radius: 50% 50%;
+    border:#f15f42 solid 1px;
+    color: #f15f42;
+    width: 30px;
+    height: 30px;
+    font-weight: 500;
+    flex-grow: 0;
+}
